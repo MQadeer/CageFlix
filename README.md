@@ -141,7 +141,7 @@ Edit the movies data in the API route or backend file, or re-run the data proces
 
 ## Future Enhancements
 
-- Deploy a persistent backend (e.g., on Render, Railway, or Fly.io) and update the frontend to use the live API.
+- Deploy a persistent backend and update the frontend to use the live API.
 - Add user authentication and functionality to all menu items.
 - Improve error handling and loading states in the UI.
 - Add support for TV shows and more advanced filtering.

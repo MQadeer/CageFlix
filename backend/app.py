@@ -3,7 +3,6 @@ from flask_cors import CORS
 import json
 import os
 
-# Add this at the top of your file
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 app = Flask(__name__)
@@ -56,7 +55,6 @@ movies = load_movies_data()
 
 @app.route('/api/movies', methods=['GET'])
 def get_movies():
-    # Just return all movies (Nicolas Cage movies or TV shows)
     return jsonify(movies)
 
 @app.route('/api/movies/<int:movie_id>', methods=['GET'])

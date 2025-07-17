@@ -1,7 +1,7 @@
 import './styles/global.css';
 import './styles/custom.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/navbar';
+import Navbar from './components/navbar/navbar';
 
 export const metadata = {
   title: 'Cageflix',
